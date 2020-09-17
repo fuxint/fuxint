@@ -46,11 +46,11 @@
             tabbarList:[
               {
                 title:'会员资料',
-                routerLink:''
+                routerLink:'/MemberUser/MemberCardDetail/MemberCardInfoDetail'
               },
               {
                 title:'验光单',
-                routerLink:''
+                routerLink:'/MemberUser/MemberCardDetail/MemberOptometryList'
               },
               {
                 title:'交易历史',

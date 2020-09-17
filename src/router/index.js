@@ -118,14 +118,19 @@ export const constantRoutes = [
     name: 'MemberCardDetail',
     children: [
       {
-        name:"MemberCardDetail",
-        path: 'MemberCardDetail',
+        name:"MemberCardInfoDetail",
+        path: 'MemberCardInfoDetail',
         component: () =>import('@/views/MemberUser/MemberCardDetail/components/MemberCardInfoDetail'),
       },
       {
         name:"MemberModificate",
         path: 'MemberModificate',
         component: () =>import('@/views/MemberUser/MemberCardDetail/components/MemberModificate'),
+      },
+      {
+        name:"MemberOptometryList",
+        path: 'MemberOptometryList',
+        component: () =>import('@/views/MemberUser/MemberCardDetail/components/MemberOptometryList'),
       }
     ]
   },
